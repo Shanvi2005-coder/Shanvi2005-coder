@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="flex navbar-parent w-100 h-100">
+      <div class="logo-div">
+        <img src="./assets/logo.png" alt="logo" width="80" />
+      </div>
+      <div class="nav-link">Home</div>
+      <div class="nav-link">Feature</div>
+      <div class="nav-link">Course</div>
+      <div class="nav-link">About</div>
+      <div class="nav-link">Contact</div>
+    </header>
+     <main class="flex main-parent h-100">
+      <div class="flex main-left col">
+        <h1>IDEAS?</h1>
+        <h3>This is just a place holder.</h3>
+        <p>
+          You can remove any link to our website from this website template,
+          you're free to use this website template without linking back to us.
+        </p>
+        <button class="flex btn center" id="btn-id">Try it Now</button>
+      </div>
+      <div class="flex main-right center">
+        <img src="./assets/box.png" alt="box" />
+      </div>
+    </main>
+    <br />
+
+    <section class="flex sections col h-100">
+      <h3>This is just a place holder.</h3>
+      <div class="flex para-sections">
+        <p>
+          You can remove any link to our website from this website template,
+          you're free to use this website template without linking back to us.
+          This is just a place holder, so you can see what the site would look
+          like. You can remove any link to our website from this website
+          template, you're free to use this website template without linking
+          back to us. This is just a place holder, so you can see what the site
+          would look like.
+        </p>
+        <p>
+          You can remove any link to our website from this website template,
+          you're free to use this website template without linking back to us.
+          This is just a place holder, so you can see what the site would look
+          like. You can remove any link to our website from this website
+          template, you're free to use this website template without linking back to us. This is just a place holder, so you can see what the site
+          would look like.
+        </p>
+      </div>
+    </section>
+    <footer class="flex footer h-100">
+      <div class="copyright">
+        shanvi<sup> &copy;</sup> 2025 All Rights Reserved
+      </div>
+      <div class="flex social-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-google-plus"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+    </footer>
+  </body>
+</html>
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.flex {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.w-100 {
+  width: 100%
+  }
+
+.h-100 {
+  height: 100%;
+}
+
+
+body {
+  min-height: 100vh;
+  
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+  justify-content: space-between;
+ 
+}
+
+
+
+.navbar-parent {
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #eee;
+  height: 80px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 100%;
+  margin: 0 auto;
+ 
+}
+
+nav-link {
+  padding: 12px 20px;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: white;
+  background-color: darkgrey;
+  font-size: 16px;
+}
+
+
+.logo-div img {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar-parent > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-parent {
+    flex-direction: column;
+    height: auto;
+    border: 1px solid grey;
+  }
+.navbar-parent > div {
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .navbar-parent > div {
+    font-size: 40px;
+  }
+}
+
+
+.main-parent {
+  margin: 0 10%;
+  margin-top: 5%;
+  width: 80%;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+  .main-parent {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+main-left {
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.main-left > div,
+h3,
+p,
+button {
+  margin: 10px 0;
+}
+
+.main-left h1 {
+  font-size: 40px;
+  color: grey;
+}
+
+.main-left h3 {
+  font-size: 24px;
+  color: brown;
+}
+
+.main-left p {
+  font-size: 16px;
+  color: green;
+}
+main-left .btn {
+  background: url(../assets/btn.png) no-repeat;
+  background-position: 0 -70px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 150px;
+
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-position: 0 0;
+  color: #f99400;
+  cursor: pointer;
+}
+
+.main-right {
+  max-width: 50%;
+}
+
+.main-right img {
+  height: auto;
+  width: 200px;
+}
+
+
+
+
+
+.sections {
+  gap: 10px;
+  margin: 0 10%;
+  margin-top: 2%;
+  border-top: 1px solid lightgrey;
+}
+
+.sections h3 {
+  margin-top: 5%;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.para-sections > p {
+  padding: 10px;
+  font-size: 14px;
+  color: lightseagreen;
+}
+
+@media screen and (max-width: 500px) {
+  .para-sections {
+    flex-direction: column;
+  }
+}
+
+
+.footer {
+  margin-top: 5%;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #eee;
+  padding: 10px 10px;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+.social-icons {
+  gap: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+</style>
+ 
