@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - NovaTech</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      margin-bottom: 30px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    section h2 {
+      color: #2c3e50;
+      margin-top: 0;
+    }
+
+    .our-team ul {
+      padding-left: 20px;
+    }
+
+    .our-team li {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>About NovaTech</h1>
+    <p>Innovating Tomorrow, Today</p>
+  </header>
+
+  <main>
+    <section class="our-history">
+      <h2>Our History</h2>
+      <p>Founded in 2010, NovaTech began as a small startup in a garage with a vision to revolutionize personal technology. Over the past decade, we’ve grown into a leading innovator in smart devices, software solutions, and clean tech—driven by a passion for excellence and user-focused design.</p>
+    </section>
+
+    <section class="our-mission">
+      <h2>Our Mission</h2>
+      <p>At NovaTech, our mission is to empower individuals and organizations with sustainable, intelligent technologies that enhance daily life. We believe in pushing boundaries, embracing creativity, and building tools that inspire confidence in the digital age.</p>
+    </section>
+
+    <section class="our-team">
+      <h2>Our Team</h2>
+      <p>NovaTech is powered by a diverse group of forward-thinking professionals—from engineers and designers to marketers and support staff. Meet some of our core team members:</p>
+      <ul>
+        <li><strong>Alex Johnson</strong> – CEO & Founder</li>
+        <li><strong>Priya Mehta</strong> – Head of Product Design</li>
+        <li><strong>Luis González</s
