@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Power of Mindful Productivity</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff;
+      padding: 30px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    address {
+      font-style: normal;
+      color: #777;
+      font-size: 0.9em;
+    }
+
+    article img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 20px 0;
+      border: 2px solid #ddd;
+      border-radius: 5px;
+    }
+
+    article h2 {
+      margin-top: 30px;
+      font-size: 1.5em;
+      color: #2c3e50;
+    }
+
+    article ul {
+      padding-left: 20px;
+      margin: 10px 0;
+    }
+
+    article li {
+      margin-bottom: 5px;
+    }
+
+    section.comments {
+      margin-top: 50px;
+    }
+
+    section.comments h3 {
+      border-top: 1px solid #ccc;
+      padding-top: 20px;
+      font-size: 1.2em;
+    }
+
+    .comment {
+      margin-top: 15px;
+      padding: 10px;
+      border-left: 3px solid #3498db;
+      background-color: #f1f1f1;
+    }
+
+    .comment p {
+      margin: 5px 0;
+    }
+
+    time {
+      font-size: 0.85em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>The Power of Mindful Productivity</h1>
+      <address>By <strong>Jane Smith</strong> | Published on <time datetime="2025-06-06">June 6, 2025</time></address>
+    </header>
+
+    <article>
+      <p>In today's fast-paced world, productivity has become a buzzword—but what if we told you that slowing down could actually help you do more?</p>
+
+      <h2>What is Mindful Productivity?</h2>
+      <p>Mindful productivity is the practice of approaching work with intention, focus, and awareness. Instead of multitasking and burning out, you take deliberate steps to prioritize and perform better.</p>
+
+      <img src="https://via.placeholder.com/750x300" alt="A person meditating at a desk with a laptop">
+
+      <h2>Key Benefits</h2>
+      <ul>
+        <li>Improved focus and attention span</li>
+        <li>Reduced stress and anxiety levels</li>
+        <li>Greater job satisfaction and creativity</li>
+      </ul>
+
+      <h2>Simple Tips to Start</h2>
+      <p>Here are a few ways you can start applying mindful productivity today:</p>
+      <ul>
+        <li>Start your day with 5 minutes of deep breathing</li>
+        <li>Work in focused 25-minute sessions (Pomodoro Technique)</li>
+        <li>Take regular, tech-free breaks</li>
+      </ul>
+
+      <p>Remember, productivity isn’t about doing more—it’s about doing what matters, better.</p>
+    </article>
+
+    <section class="comments">
+      <h3>Comments</h3>
+
+      <div class="comment">
+        <p><strong>Alex:</strong> Great read! I’ve started using the Pomodoro Technique and it really works.</p>
+        <time datetime="2025-06-06T10:30">June 6, 2025 at 10:30 AM</time>
+      </div>
+
+      <div class="comment">
+        <p><strong>Sara:</strong> The part about intention really resonated with me. Thanks for sharing!</p>
+        <time datetime="2025-06-06T11:05">June 6, 2025 at 11:05 AM</time>
+      </div>
+    </section>
+  </div>
+
+</body>
+</html>
