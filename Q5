@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sticky Nav Example</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: #333;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    
+    section {
+      padding: 80px 20px;
+      min-height: 100vh;
+      border-bottom: 1px solid #ccc;
+    }
+
+    #home { background-color: #f9f9f9; }
+    #about { background-color: #e9f7ef; }
+    #services { background-color: #fef9e7; }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      max-width: 700px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+  </nav>
+
+  <section id="home">
+    <h2>Home</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula, arcu ac tempus fringilla, nisi urna aliquet risus, in convallis ligula velit eget metus. Phasellus pretium ligula nec diam tempus, vitae convallis magna faucibus.</p>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>Aliquam erat volutpat. Duis vitae leo id justo bibendum fringilla. Donec ut ex et diam gravida euismod. Suspendisse nec dolor non tortor consectetur imperdiet. Nunc a bibendum nisi, vel lacinia turpis.</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <p>Curabitur consequat, augue ut dictum congue, justo massa iaculis nisi, vel porta est lorem non metus. Sed cursus, urna nec facilisis dapibus, ante metus finibus tellus, in tincidunt arcu urna at eros.</p>
+  </section>
+
+</body>
+</html>
