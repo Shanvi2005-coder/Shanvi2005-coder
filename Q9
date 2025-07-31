@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FAQ - NovaTech</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f5f5f5;
+      padding: 20px;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .faq {
+      max-width: 700px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .faq ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .faq li {
+      margin-bottom: 20px;
+    }
+
+    .faq .question {
+      font-weight: bold;
+      color: #2c3e50;
+      margin-bottom: 5px;
+    }
+
+    .faq .answer {
+      margin-left: 15px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Frequently Asked Questions</h1>
+
+  <div class="faq">
+    <ul>
+      <li>
+        <div class="question">1. What is NovaTech?</div>
+        <div class="answer">NovaTech is a fictional tech company focused on delivering smart, sustainable digital solutions for modern users.</div>
+      </li>
+      <li>
+        <div class="question">2. Where is NovaTech based?</div>
+        <div class="answer">NovaTech is headquartered in Bangalore, India, with remote teams distributed globally.</div>
+      </li>
+      <li>
+        <div class="question">3. How do I contact customer support?</div>
+        <div class="answer">You can reach our support team via the “Contact Us” page or email us at support@novatech.com.</div>
+      </li>
+      <li>
+        <div class="question">4. Are your products eco-friendly?</div>
+        <div class="answer">Yes! Sustainability is a core part of our mission. We design and source our products with environmental responsibility in mind.</div>
+      </li>
+      <li>
+        <div class="question">5. Can I contribute to your blog?</div>
+        <div class="answer">Absolutely! We're open to guest contributions. Please submit your pitch through the blog contact form.</div>
+      </li>
+    </ul>
+  </div>
+
+</body>
+</html>
