@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Photo Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .gallery {
+      text-align: center; /* for fallback */
+    }
+
+    .gallery-item {
+      display: inline-block;
+      width: 30%;
+      margin: 1.5%;
+      background: white;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Tablet: Two Columns */
+    @media (max-width: 768px) {
+      .gallery-item {
+        width: 47%;
+        margin: 1.5%;
+      }
+    }
+
+    /* Mobile: One Column */
+    @media (max-width: 480px) {
+      .gallery-item {
+        width: 100%;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Photo Gallery</h1>
+
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="https://picsum.photos/400/250?random=1" alt="Photo 1">
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/400/250?random=2" alt="Photo 2">
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/400/250?random=3" alt="Photo 3">
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/400/250?random=4" alt="Photo 4">
+      
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/400/250?random=5" alt="Photo 5">
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/400/250?random=6" alt="Photo 6">
+    </div>
+  </div>
+
+</body>
+</html>
